@@ -1,0 +1,34 @@
+html {
+  background-color: aqua;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: calc(1200px - 15%);
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 22px;
+  box-sizing: border-box;
+  background-color: darkgrey;
+  border: 2px solid #000;
+}
+
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+#symbol-22 {
+  width: 150px;
+  fill: aqua;
+  stroke: #000;
+  fill-opacity: 0.5;
+}
+
+#symbol-33 {
+  width: 150px;
+  fill-opacity: 0.8;
+  fill: brown;
+}
