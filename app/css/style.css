@@ -32,3 +32,23 @@ body {
   fill-opacity: 0.8;
   fill: brown;
 }
+
+.box {
+  display: flex;
+}
+
+figure {
+  width: max-content;
+  margin: 20px;
+  background-color: blueviolet;
+}
+
+figcaption {
+  margin: 8px;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+
+}
